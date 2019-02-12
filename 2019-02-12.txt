@@ -1,3 +1,4 @@
+Noon status update:
 Created wireframe for Project 1:
 
 I will be using a template that uses a landing page with images/pictures and button links to other
@@ -8,4 +9,11 @@ Projects
 Education
 Weekly Reflections
 Resume
-Projects
+
+
+Afternoon status update:
+I linked the buttons for About me, Skills, projects, weekly reflections and education.
+I added button color and background.
+I entered information into the about me, skills and education pages.
+I added an image to the home page and changed the background color.
+Set up a table for weekly reflections.

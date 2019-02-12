@@ -1,0 +1,15 @@
+.portfolio-page-template 
+{
+    display: grid;
+    border: 1px solid red;
+}
+
+body {
+    background: lightpink;
+}
+
+#buttons  {
+    color: white;
+    background: black;
+
+}
