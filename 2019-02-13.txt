@@ -1,0 +1,9 @@
+Noon status update:
+I changed the weekly reflections table to a grid.
+I changed the picture on the home page and commented out two divs because I'm not sure that
+I am going to use them. Instead I put all my buttons on the homepage.
+I took the background color off the buttons and changed the font to black.
+I embedded my resume in the Resume HTML.
+I linked my email on the contact HTML page.
+
+Afternoon status update:

@@ -9,7 +9,11 @@ body {
 }
 
 #buttons  {
-    color: white;
-    background: black;
+    color: black;
 
+
+}
+
+footer {
+    text-align: center;
 }
