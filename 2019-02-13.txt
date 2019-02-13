@@ -7,3 +7,7 @@ I embedded my resume in the Resume HTML.
 I linked my email on the contact HTML page.
 
 Afternoon status update:
+Edited the Skills HTML to an ordered list.
+I added background color to the Skills CSS page as well.
+I created a google contact form and added it to the Contact HTML page.
+I added a link to Project 1 to the Projects HTML page.

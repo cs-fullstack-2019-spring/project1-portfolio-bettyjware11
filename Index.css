@@ -1,17 +1,25 @@
-.portfolio-page-template 
+.container
 {
+    position: relative;
     display: grid;
     border: 1px solid red;
+
+}
+
+.button list
+{
+    position: absolute;
+
 }
 
 body {
     background: lightpink;
+
 }
 
-#buttons  {
-    color: black;
-
-
+button  {
+    color: white;
+    background: black;
 }
 
 footer {

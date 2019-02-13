@@ -1,3 +1,13 @@
-p {
-    display: block;
+body {
+    background: aquamarine;
+    border: 1px solid black;
+    margin: 10% 10%;
+    padding: 50px;
+}
+
+h1 {
+    -webkit-animation-timing-function: ease;
+    -moz-animation-timing-function: ease;
+    -o-animation-timing-function: ease;
+    animation-timing-function: ease;
 }
