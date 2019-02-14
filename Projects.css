@@ -6,11 +6,26 @@
     grid-auto-rows: minmax(100px, auto);
 }
 
+
+/*1st highlighted project*/
 .one {
     grid-column: 1;
     grid-row: 1;
     border: 1px solid blue;
-
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 520px;
+}
+/*Adjusts size of picture*/
+img {
+    width: 520px;
+    height: 340px;
+    background-color: grey;
+}
+/*lines up text (caption) under picture*/
+.caption {
+    display: inline-block;
 }
 
 .two {

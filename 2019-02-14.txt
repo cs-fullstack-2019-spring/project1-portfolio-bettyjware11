@@ -6,3 +6,8 @@ Added color and style to Skills and Contact pages.
 
 
 Afternoon Update:
+Added "Home" button to every page in order to navigate back to the homepage from anywhere.
+Changed font color on Homepage to make my name more readable.
+Changed the position of the information buttons to "fixed" so that they remain together and easily
+accessible from anywhere on the homepage.
+Added screenshots from some of the assignments/projects that we have done thus far.
