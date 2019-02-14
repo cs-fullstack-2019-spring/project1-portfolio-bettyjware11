@@ -1,0 +1,8 @@
+Morning update:
+Formatted Weekly reflections grid to display more reader friendly.
+Re-arranged the home page: added a picture across the whole page; button color & placement
+Added placeholders for projects and text on the Projects page.
+Added color and style to Skills and Contact pages.
+
+
+Afternoon Update:
