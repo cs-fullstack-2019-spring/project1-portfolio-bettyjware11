@@ -2,3 +2,9 @@ Morning Update:
 Added details to Skills page
 Added some animated css styling to Education page
 Added color change button to Skills page
+
+Afternoon update:
+Embeded contact form into contact sheet to get rid of extra white space
+Put buttons at top of contact page
+Separated project screen shots from text with space
+In the process of adding all navigation buttons to all pages

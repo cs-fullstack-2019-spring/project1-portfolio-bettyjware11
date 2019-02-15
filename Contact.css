@@ -2,12 +2,18 @@
     position:relative;
     text-align: center;
     background: pink;
-    margin: 20% 20%;
-}
-.top {
-
+    /*margin: 10% 10%;*/
 }
 
-.bottom {
+button {
+    color: deeppink;
+}
 
+header {
+    text-align: center;
+    background: gray;
+}
+
+form  {
+    position: absolute;
 }

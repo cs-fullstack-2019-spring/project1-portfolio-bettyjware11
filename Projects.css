@@ -16,6 +16,8 @@
     display: inline-block;
     text-align: center;
     width: 520px;
+    margin-top: auto;
+    margin-bottom: 20px;
 }
 /*Adjusts size of picture*/
 img {
@@ -25,6 +27,7 @@ img {
 }
 /*lines up text (caption) under picture*/
 .caption {
+    margin-top: 20px;
     display: inline-block;
 }
 
@@ -32,6 +35,8 @@ img {
     grid-column: 2;
     grid-row: 1;
     border: 1px solid blue;
+    margin: 20px;
+
 }
 
 .three

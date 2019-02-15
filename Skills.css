@@ -1,8 +1,8 @@
-body {
+.container {
     background: pink;
     border: 1px solid black;
-    margin: 10% 10%;
-    padding: 50px;
+    margin: 5% 5%;
+    padding: 10px;
 }
 
 h1 {
@@ -18,4 +18,15 @@ div {
     -o-animation-timing-function: ease;
     animation-timing-function: ease;
 
+}
+
+header {
+    text-align: center;
+
+
+}
+
+button {
+    color: deeppink;
+    background: black;
 }
