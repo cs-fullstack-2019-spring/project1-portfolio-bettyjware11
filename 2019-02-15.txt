@@ -1,0 +1,4 @@
+Morning Update:
+Added details to Skills page
+Added some animated css styling to Education page
+Added color change button to Skills page

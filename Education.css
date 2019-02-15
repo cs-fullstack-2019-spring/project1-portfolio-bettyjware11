@@ -1,0 +1,14 @@
+/* The animation code */
+@keyframes example {
+    from {background-color: pink;}
+    to {background-color: deeppink;}
+}
+
+/* The element to apply the animation to */
+div {
+    width: 500px;
+    height: 200px;
+    background-color: pink;
+    animation-name: example;
+    animation-duration: 10s;
+}
