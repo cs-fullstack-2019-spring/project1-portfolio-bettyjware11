@@ -1,17 +1,24 @@
+/*created to style and position*/
 .container {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     grid-gap: 20px;
-    /*border: 1px solid blue;*/
     grid-auto-rows: minmax(100px, auto);
 }
+/*background color*/
+body {
+    background: pink;
+}
+/*button font color*/
+button {
+    color: deeppink;
+}
 
-
-/*1st highlighted project*/
+/*created classes one, two, three and four to position and style*/
 .one {
     grid-column: 1;
     grid-row: 1;
-    border: 1px solid blue;
+    border: 3px solid black;
     vertical-align: top;
     display: inline-block;
     text-align: center;
@@ -34,7 +41,7 @@ img {
 .two {
     grid-column: 2;
     grid-row: 1;
-    border: 1px solid blue;
+    border: 3px solid black;
     margin: 20px;
 
 }
@@ -43,12 +50,12 @@ img {
 {
     grid-column: 1;
     grid-row: 2;
-    border: 1px solid blue;
+    border: 3px solid black;
 }
 
 .four {
     grid-column: 2;
     grid-row: 2;
-    border: 1px solid blue;
+    border: 3px solid black;
 
 }

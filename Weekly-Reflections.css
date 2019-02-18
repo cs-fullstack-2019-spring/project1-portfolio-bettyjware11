@@ -1,64 +1,78 @@
-/**p {*/
-    /*border-bottom: 1px solid blue;*/
-
-/*}*/
-
-
-
+/*colored background*/
+body {
+    background: gray;
+}
+/*set grid area*/
+.container
+{
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 10px;
+    background: pink;
+}
+/*created to put headings on top of columns*/
 .top {
     grid-column: 1 / 2;
     grid-row: 2;
     text-align: center;
 }
-
+/*grid positioning*/
 #1st {
     grid-column: 1;
     grid-row: 1;
 
 }
-
+/*grid positioning*/
 #2nd {
     grid-column: 2;
     grid-row: 1;
 
 }
-
-.col-container {
+/*stylrd grid area*/
+.col {
     display: grid;
-    border: 1px solid blue;
+    border: 1px solid black;
     grid-template-areas:
         "header" "header"
+        "aside" "article"
+        "aside" "article"
+        "aside" "article"
+        "aside" "article"
+        "aside" "article"
         "aside" "article";
     grid-template-columns: 1fr 3fr;
     grid-auto-rows: minmax(100px, auto);
     /*grid-gap: 20px;*/
 }
-
+/*style grid area*/
 aside {
 
     grid-area: sidebar;
     grid-column: 1;
     grid-row: 2;
-    border: 1px solid blue;
+    border: 1px solid black;
+    grid-template-columns: 1fr 3fr;
+    grid-auto-rows: minmax(100px, auto);
 
 }
 
-
+/*style grid area*/
 article {
 
     grid-area: content;
     grid-column: 2;
     grid-row: 2;
-    border: 1px solid blue;
+    border: 1px solid black;
 
 }
 .col-container {
     display: table; /* Make the container element behave like a table */
     width: 100%; /* Set full-width to expand the whole page */
+
 }
 
 .col {
     display: table-cell; /* Make elements inside the container behave like table cells */
+
 }
 
 
@@ -69,3 +83,12 @@ article {
         width: 100%;
     }
 }
+/*button font*/
+button {
+    color: deeppink;
+}
+
+.box {
+    grid-row-gap: 20px;
+}
+

@@ -1,8 +1,42 @@
+/*Styled pink*/
 body {
     background: pink;
+
 }
 
+/*Colored  information button font*/
 button {
-    color: black;
+    color: deeppink;
+    /*background: deeppink;*/
+
+}
+
+/*made container for positioning*/
+.container {
+    position: center;
+
+}
+
+
+/*positioning haeder*/
+.top {
+    position: relative;
+    top: 8px;
+    text-align: center;
+    margin-bottom: 5%;
+
+}
+
+/*created to center details about me*/
+.center {
+    text-align: center;
+    border: 1px solid black;
+
+}
+/*created to be able to style and position separatly from other buttons*/
+.changeColor {
+    position: relative;
+    top: 8px;
+    left: 16px;
 
 }

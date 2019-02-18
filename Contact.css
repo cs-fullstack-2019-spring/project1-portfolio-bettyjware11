@@ -1,19 +1,24 @@
+/*Container for styling and positioning*/
 .container {
     position:relative;
     text-align: center;
     background: pink;
     /*margin: 10% 10%;*/
 }
-
+/*Colored button font*/
 button {
     color: deeppink;
 }
-
+/*Centered header buttons*/
 header {
     text-align: center;
     background: gray;
 }
-
+/*Fixed form to this position */
 form  {
     position: absolute;
+}
+/*Colored background*/
+body {
+    background: gray;
 }

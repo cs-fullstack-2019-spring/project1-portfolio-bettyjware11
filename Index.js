@@ -1,1 +1,0 @@
-var picArray = ["IMG_0646.jpg", "IMG_0542",];

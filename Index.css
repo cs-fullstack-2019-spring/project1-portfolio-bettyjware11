@@ -1,9 +1,9 @@
+/*Created container to wrap elements*/
 .container
 {
     position: relative;
     text-align: center;
-    /*display: grid;*/
-    /*border: 1px solid red;*/
+
 
 }
 
@@ -46,7 +46,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
+/*colored button font*/
 button {
     color: deeppink;
     /*background: deeppink;*/

@@ -1,4 +1,4 @@
-/* The animation code */
+/* The animation code that changes color from light pink to deep pink */
 @keyframes example {
     from {background-color: pink;}
     to {background-color: deeppink;}
@@ -6,9 +6,21 @@
 
 /* The element to apply the animation to */
 div {
-    width: 500px;
-    height: 200px;
+
     background-color: pink;
     animation-name: example;
-    animation-duration: 10s;
+    animation-duration: 20s;
+}
+/*background color set*/
+body {
+    background: gray;
+}
+/*colored button font*/
+button {
+    color: deeppink;
+}
+
+/*Extra Large heading*/
+h4 {
+    font-size: x-large;
 }
