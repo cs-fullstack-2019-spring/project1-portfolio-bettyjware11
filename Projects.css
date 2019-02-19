@@ -18,11 +18,11 @@ button {
 .one {
     grid-column: 1;
     grid-row: 1;
-    border: 3px solid black;
-    vertical-align: top;
-    display: inline-block;
+    border: 3px solid blue;
+    /*vertical-align: top;*/
+    /*display: inline-block;*/
     text-align: center;
-    width: 520px;
+    /*width: 520px;*/
     margin-top: auto;
     margin-bottom: 20px;
 }
@@ -41,8 +41,9 @@ img {
 .two {
     grid-column: 2;
     grid-row: 1;
-    border: 3px solid black;
-    margin: 20px;
+    border: 3px solid blue;
+    margin-top: auto;
+    margin-bottom: 20px;
 
 }
 
@@ -50,12 +51,12 @@ img {
 {
     grid-column: 1;
     grid-row: 2;
-    border: 3px solid black;
+    border: 3px solid blue;
 }
 
 .four {
     grid-column: 2;
     grid-row: 2;
-    border: 3px solid black;
+    border: 3px solid blue;
 
 }

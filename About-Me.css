@@ -1,8 +1,10 @@
 /*Styled pink*/
 body {
+    font-size: larger;
     background: pink;
 
 }
+
 
 /*Colored  information button font*/
 button {
@@ -18,7 +20,7 @@ button {
 }
 
 
-/*positioning haeder*/
+/*positioning header*/
 .top {
     position: relative;
     top: 8px;
@@ -29,6 +31,7 @@ button {
 
 /*created to center details about me*/
 .center {
+    font-size: larger;
     text-align: center;
     border: 1px solid black;
 

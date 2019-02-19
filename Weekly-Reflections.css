@@ -1,13 +1,26 @@
 /*colored background*/
 body {
     background: gray;
+    font-size: large;
+    text-align: center;
+}
+header {
+    font-size: xx-large;
 }
 /*set grid area*/
 .container
 {
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 2fr 3fr;
     grid-gap: 10px;
     background: pink;
+    grid-template-areas:
+            "header" "header"
+            "aside"  "aside" "article" "article" "article"
+            "aside" "aside" "article" "article" "article"
+            "aside"  "aside" "article" "article" "article"
+            "aside"  "aside""article" "article" "article"
+            "aside" "aside" "article" "article" "article"
+            "aside" "aside" "article" "article" "article";
 }
 /*created to put headings on top of columns*/
 .top {
@@ -31,27 +44,18 @@ body {
 .col {
     display: grid;
     border: 1px solid black;
-    grid-template-areas:
-        "header" "header"
-        "aside" "article"
-        "aside" "article"
-        "aside" "article"
-        "aside" "article"
-        "aside" "article"
-        "aside" "article";
+
     grid-template-columns: 1fr 3fr;
-    grid-auto-rows: minmax(100px, auto);
-    /*grid-gap: 20px;*/
+
 }
 /*style grid area*/
 aside {
 
     grid-area: sidebar;
     grid-column: 1;
-    grid-row: 2;
+    grid-row: 2 / 4;
     border: 1px solid black;
-    grid-template-columns: 1fr 3fr;
-    grid-auto-rows: minmax(100px, auto);
+    grid-template-columns: 2fr 3fr;
 
 }
 
@@ -89,6 +93,18 @@ button {
 }
 
 .box {
-    grid-row-gap: 20px;
+    display: table;
 }
 
+/*making grid areas act like rows in order to size*/
+#row1, #row2, #row3, #row4, #row5, #row6  {
+    display: table-row;
+    height: 150px;
+
+}
+/*making grid areas act like rows in order to size*/
+#row1b, #row2b, #row3b, #row4b, #row5b, #row6b  {
+    display: table-row;
+    height: 150px;
+
+}

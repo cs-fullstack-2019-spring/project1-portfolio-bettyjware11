@@ -1,5 +1,6 @@
 /*container for styling*/
 .container {
+    font-size: xx-large;
     background: pink;
     border: 1px solid black;
     margin: 5% 5%;
@@ -8,6 +9,7 @@
 
 /*put buttons in the center*/
 header {
+    font-size: xx-large;
     text-align: center;
 
 
